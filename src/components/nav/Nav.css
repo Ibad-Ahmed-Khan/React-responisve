@@ -1,0 +1,41 @@
+.Nav-parent {
+  width: 100%;
+}
+
+ul {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3rem;
+  padding-right: 5rem;
+  list-style: none;
+  background: black;
+  position: fixed;
+  width: 100%;
+}
+
+:link::after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: relative;
+  top: 2px;
+  background: white;
+  transform: scale(0);
+  transform-origin: left;
+  transition: all 0.3s ease-in-out;
+}
+
+:link:hover::after {
+  transform: scale(1);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,88 @@
+.total-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin-top: 6rem;
+}
+
+.indivisual-items {
+  margin-inline: 2rem;
+}
+
+.indivisual-items h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+
+.indivisual-items h2::after {
+  content: "";
+  display: block;
+  height: 5px;
+  position: relative;
+  top: 2px;
+  background: black;
+  transform: scale(0);
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.indivisual-items h2:hover::after {
+  transform: scale(1);
+}
+
+.products-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 3px solid red; */
+}
+
+.product-card {
+  width: 100%;
+  height: 33rem;
+  padding: 5rem;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  /* border: 3px solid red; */
+}
+
+.product-card img:hover {
+  padding: 1rem;
+}
+
+.shop-btn {
+  color: black;
+  background: white;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 0.5rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.shop-btn:hover {
+  color: white;
+  background: black;
+  border: 1px solid white;
+}
