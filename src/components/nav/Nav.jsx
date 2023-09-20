@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <div className="Nav-parent">
       <ul>
-        <Link to="/shop">shop</Link>
+        <Link to="/">shop</Link>
         <Link to="/cart">cart</Link>
       </ul>
     </div>
