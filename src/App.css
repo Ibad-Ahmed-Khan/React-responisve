@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 .parent {
