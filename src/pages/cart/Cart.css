@@ -62,3 +62,10 @@ li > * {
   border: 1px solid white;
   animation: shake 0.3s ease-in-out 4;
 }
+
+.total-price {
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  /* background: red; */
+}

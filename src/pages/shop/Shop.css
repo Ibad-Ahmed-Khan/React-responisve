@@ -87,3 +87,7 @@
   background: black;
   border: 1px solid white;
 }
+
+.shop-btn:active {
+  background: white;
+}
